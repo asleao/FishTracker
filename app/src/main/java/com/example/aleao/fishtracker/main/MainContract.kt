@@ -10,11 +10,15 @@ interface MainContract {
         fun showSignInScreen()
 
         fun showSignUpScreen()
+
+        fun showDialogScreen()
     }
 
     interface Presenter {
         fun handleSignInButtonClick(view:View)
 
         fun handleSignUpButtonClick(view: View)
+
+        fun handleDialogButtonClick(view: View)
     }
 }
