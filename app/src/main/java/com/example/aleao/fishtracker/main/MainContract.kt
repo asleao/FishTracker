@@ -10,8 +10,6 @@ interface MainContract {
         fun showSignInScreen()
 
         fun showSignUpScreen()
-
-        fun showDialogScreen()
     }
 
     interface Presenter {
